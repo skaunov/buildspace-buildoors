@@ -1,26 +1,22 @@
 {
-  "price": 0.0,
+  "tokenStandard": "nft",
   "number": 5,
-  "gatekeeper": null,
+  "symbol": "BLDR",
+  "sellerFeeBasisPoints": 0,
+  "isMutable": true,
+  "isSequential": false,
   "creators": [
     {
-      "address": "qCqumD9cVQB8kA4FXQDSx61juAENY77Rj3RKTQRUEv4",
+      "address": "Dkx34bvvWKykU1NMnh4oXqmCYPxr5Jaue77bHB6QZJg9",
       "share": 100
     }
   ],
-  "solTreasuryAccount": "qCqumD9cVQB8kA4FXQDSx61juAENY77Rj3RKTQRUEv4",
-  "splTokenAccount": null,
-  "splToken": null,
-  "goLiveDate": "2022-09-01T03:50:16.302385+00:00",
-  "endSettings": null,
-  "whitelistMintSettings": null,
-  "hiddenSettings": null,
   "uploadMethod": "bundlr",
-  "retainAuthority": true,
-  "isMutable": true,
-  "symbol": "BLDR",
-  "sellerFeeBasisPoints": 500,
+  "ruleSet": null,
   "awsConfig": null,
   "nftStorageAuthToken": null,
-  "shdwStorageAccount": null
+  "shdwStorageAccount": null,
+  "pinataConfig": null,
+  "hiddenSettings": null,
+  "guards": null
 }
