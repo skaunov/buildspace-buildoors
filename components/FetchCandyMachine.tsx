@@ -85,7 +85,7 @@ export const FetchCandyMachine: FC = () => {
 
         {pageItems && (<div>
             <div className={styles.gridNFT}>{pageItems.map(
-                (nft) => (<div className={styles.innerwrapper}>
+                (nft) => (<div className={styles.innerwrapper} key={nft.image}>
                     <div className={styles.content}>
                         <img src={nft.image} alt={nft.name} className={styles.imgnft} />
                         <div className={styles.nftinfo}><div className={styles.nftinfoname}>

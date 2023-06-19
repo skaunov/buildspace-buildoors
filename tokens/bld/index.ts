@@ -52,7 +52,7 @@ async function createBldToken(
       description: tokenDescription,
       image: imageUri,
     })
-    .run()
+    // .run()
 
   const metadataPda = await findMetadataPda(tokenMint)
 
@@ -74,12 +74,12 @@ async function createBldToken(
       payer: payer.publicKey,
       updateAuthority: payer.publicKey,
     },
-    {
-      createMetadataAccountArgsV2: {
-        data: tokenMetadata,
-        isMutable: true,
-      },
-    }
+    // {
+    //   createMetadataAccountArgsV2: {
+    //     data: tokenMetadata,
+    //     isMutable: true,
+    //   },
+    // }
   )
 
   const transaction = new web3.Transaction()
